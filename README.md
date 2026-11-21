@@ -1,19 +1,8 @@
-This repository contains tooling and templates to assist in the management and daily work of the Wolfi-dev GitHub organisation.
+# .github
 
----
-# Labels
+Default community health files for repositories owned by
+[@ltagliaferri](https://github.com/ltagliaferri). GitHub uses these files for
+any public repository that does not have its own copy:
 
-The org labels are defined in `labels.json`, please open a PR for any changes.
-
-Any changes will be applied to all repos via the [Sync Org Labels workflow](https://github.com/chainguard-images/.github/workflows/sync-org-labels.yml).
-
-This only add new labels and update labels it does not remove labels that were created manually in a repository.
-
-When renaming a label, use the `alias` property to specify the old name. For example:
-
-```json
-{
-  "name": "type: bug",
-  "alias": "bug"
-}
-```
+* [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md): Contributor Covenant 2.1
+* [`SECURITY.md`](SECURITY.md): how to report security issues
